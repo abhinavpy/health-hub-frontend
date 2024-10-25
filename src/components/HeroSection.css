@@ -1,0 +1,41 @@
+/* src/components/HeroSection.css */
+.hero {
+    color: #FFFFFF;
+    text-align: center;
+    padding: 100px 20px;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+  }
+  
+  .hero p {
+    font-size: 1.25rem;
+    margin: 20px 0;
+    color: #FFFFFF;
+  }
+  
+  .hero-buttons {
+    margin-top: 20px;
+  }
+  
+  .primary-btn, .secondary-btn {
+    font-size: 1rem;
+    padding: 12px 24px;
+    margin: 0 10px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+  }
+  
+  .primary-btn {
+    background-color: #800080;
+    color: #FFFFFF;
+  }
+  
+  .secondary-btn {
+    background-color: #ffc0cb;
+    color: #800080;
+  }
+  

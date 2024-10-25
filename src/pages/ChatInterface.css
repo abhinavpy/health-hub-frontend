@@ -1,0 +1,147 @@
+/* src/pages/ChatInterface.css */
+.chat-interface {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #f5f5f5;
+  }
+  
+  .chat-window {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+  }
+  
+  .faq-horizontal {
+    background-color: #FFFFFF;
+    padding: 10px 0;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .faq-horizontal ul {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 0;
+    list-style-type: none;
+    margin: 0;
+  }
+  
+  .faq-horizontal li {
+    padding: 8px 12px;
+    background-color: #ffc0cb;
+    border-radius: 8px;
+    cursor: pointer;
+    color: #800080;
+    font-size: 0.9rem;
+    white-space: nowrap;
+  }
+  
+  .faq-horizontal li:hover {
+    background-color: #f0a0c0;
+  }
+  
+  .message {
+    margin: 10px 0;
+    padding: 10px 15px;
+    border-radius: 8px;
+    max-width: 70%;
+  }
+  
+  .message.user {
+    align-self: flex-end;
+    background-color: #ffc0cb;
+    color: #333;
+  }
+  
+  .message.bot {
+    align-self: flex-start;
+    background-color: #800080;
+    color: #fff;
+  }
+  
+  /* Chat input container styling */
+  .input-container {
+    display: flex;
+    padding: 15px;
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+    position: relative;
+    bottom: 0;
+  }
+  
+  /* Styling for text input */
+  .input-container input[type="text"] {
+    flex: 1;
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 1rem;
+    margin-right: 10px;
+    outline: none;
+    transition: border-color 0.3s;
+  }
+  
+  .input-container input[type="text"]:focus {
+    border-color: #008080;
+  }
+  
+  /* Styling for send button */
+  .input-container button {
+    background-color: #008080;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .input-container button:hover {
+    background-color: #006666;
+  }
+  
+  /* ... existing styles ... */
+
+/* Adjust input container to accommodate two buttons */
+.input-container {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+  }
+  
+  .input-container input[type="text"] {
+    flex: 1;
+    /* ... existing styles ... */
+  }
+  
+  .input-container button {
+    /* Shared styles for both buttons */
+    background-color: #008080;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .input-container button:hover {
+    background-color: #006666;
+  }
+  
+  /* Specific styling for the Submit button */
+  .submit-btn {
+    background-color: #800080;
+  }
+  
+  .submit-btn:hover {
+    background-color: #660066;
+  }
+  

@@ -1,0 +1,24 @@
+/* src/components/FAQs.css */
+.faqs {
+    padding: 60px 20px;
+    background-color: #FFFFFF;
+    color: #333333;
+  }
+  
+  .faqs h2 {
+    text-align: center;
+    color: #800080;
+    font-size: 2rem;
+  }
+  
+  .faq h4 {
+    color: #008080;
+    font-size: 1.25rem;
+    margin-top: 20px;
+  }
+  
+  .faq p {
+    margin-top: 5px;
+    color: #333;
+  }
+  
